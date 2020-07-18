@@ -1,0 +1,119 @@
+#! Before all these projects, I have to learn object oriented programming
+
+Some basic concepts include:
+1. classes
+2. instances
+3. instantiating objects
+4. instance methods
+5. inheritance
+6. operator overloading
+7. polymorphesm?
+8. multiple inheritance/ mix-in classes
+9. override more built-in operators
+10. customize attribute axis?
+11.custom iterators
+12. abstract base classes
+13. dataclasses
+14. object-oriented principles
+15. solid principles
+16. design patterns
+17.encaspulation
+18. abstraction
+
+Tkinter projects I should work on:
+1. Rock paper scissors game
+2. age calculator
+3. login/register system
+https://www.youtube.com/watch?v=Z-deSpgtIG0
+4. Pharmacy management system
+https://www.youtube.com/watch?v=5QOaCVpPOyk
+5. Tic Tac Toe
+6. Snake Game
+7. Colour Game
+https://www.geeksforgeeks.org/color-game-python/
+8. To do list
+9. Quiz app, for admin too.
+10. 
+
+Other datacamp courses I should take eventually:
+1. Data types for data science in python
+2. Finish up the oop course and skim through "Working with the class system course"
+3. Practicing Coding interview questions in python
+4. Take the python programming assessment
+5. Work through Python Data Science Toolbox series
+
+I want to make a program that finds a solution to the puzzle on my phone.'
+DON'T LEARN PYGAME FOR NOW!!
+For this I will need tkinter and possibly pygame.
+I will need to find an algorithm that can beat the game.
+
+For this, I want to take this course: https://learn.datacamp.com/courses/object-oriented-programming-in-python
+This will help me learn other programming languages as well.
+
+Also good project will be futurelearn's object-oriented python course
+https://www.futurelearn.com/courses/object-oriented-principles
+This course expires in 6 weeks so be careful when to get it
+
+Another project off edx:
+https://www.edx.org/course/computing-in-python-iv-objects-algorithms]
+this course also has time limit so be careful
+
+This article seems interesting: https://towardsdatascience.com/a-quick-guide-on-object-oriented-programming-with-python-bcff043fee38
+
+A couple of other links:
+https://overiq.com/python-101/inheritance-and-polymorphism-in-python/
+https://www.w3resource.com/python-exercises/class-exercises/
+
+
+
+
+
+#!find out what refactoring, virtual environments, requirements.txt, pipenv, pyenv, poetry mean, 
+# !source control, sentipent api, git version
+#! Keys: what regular expression (Alt+r) does, 
+#! Customization how to edit font colour (e.g. docstrings)
+#!make conda 3.7.6 base conda my default interpreter
+#*Whenever you change interpreter in vit
+#!Find how to import pylint in a virtual environment start watching the video's to watch at 33min to learn about virtual
+#!environement and pip
+#!https://stackoverflow.com/questions/45954528/pip-is-configured-with-locations-that-require-tls-ssl-however-the-ssl-module-in
+#!delete the 3.8.2 python file from appdata
+
+#https://lab.github.com/
+#https://guides.github.com/
+
+#!Music Projects
+I should make music projects based on breezinthru. Also I can make an algorithm which solves sudoku and an algorithm which solves a puzzle.
+
+Scale degree training software. (Perfect fifths etc)
+Interval recognizing software.
+
+#I should make a grapher, and gui's for my math questions.
+
+#Games: hangman, snake game, moguratataki
+
+Big project: lightbot solver (probably will take some time)
+
+I want to make an interval training website and host it on my .github.io domain
+
+I should make a simple make account, log in, take notes, log out system
+
+
+
+
+#!Robotics and ROS development
+After I get real good with data structures and algorithms, I want to get started with robotic simulations.
+
+ROS stands for Robot operating system and is maninly based on software.
+
+Some websites I found:
+1. theconstructism.com
+2. wiki.ros.org
+3. 2012 roscon videos?
+4. roboticsbackend.com
+5. turtlebot?
+6. https://www.instructables.com/id/Raspberry-Pi-and-ROS-Robotic-Operating-System/
+7. https://www.futurelearn.com/courses/getting-started-with-your-raspberry-pi (Raspberry pi programming)
+8. https://www.futurelearn.com/courses/physical-computing-raspberry-pi-python (Raspberry pi too)
+
+
