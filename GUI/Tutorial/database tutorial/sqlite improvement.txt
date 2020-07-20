@@ -1,2 +1,0 @@
-1. Make a database version of the shopping app I had created. Make an option to load previous items and prices.
-2. Make a search box where I can search for different items in a databse. Use dropdown menus to sort cases based on categories.
