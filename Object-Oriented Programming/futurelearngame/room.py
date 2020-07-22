@@ -1,5 +1,6 @@
 class Room():
     #*Need constructor
+    NUM_ROOMS = 0
     def __init__(self, room_name):
         #*Instead of defining a variable in other methods, I can set them in the constructor using none.
         self.name = room_name
@@ -7,10 +8,17 @@ class Room():
         self.linked_rooms = {}
         #*In order to add characters in the room, I need to add them into the Room class
         self.character = None
+        Room.NUM_ROOMS += 1
 
     #*I am going to create a getter and setter method.
     def set_description(self, description):
         self.description = description
+
+    @staticmethod
+    #*Static methods can be used without making instances. It can be used outside the class whenever.
+    def print_random():
+        print("This is what a static method can do.")
+
     
     def get_description(self):
         return self.description

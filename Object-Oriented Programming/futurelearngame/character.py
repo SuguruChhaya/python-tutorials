@@ -58,6 +58,9 @@ class Enemy(Character):
         self.weakness = weakness
         return False
 
+    def set_bribe(self, bribable):
+        self.bribable = bribable
+
     def bribe(self, bribalble):
         self.bribable = bribalble
         if self.bribable == "True":

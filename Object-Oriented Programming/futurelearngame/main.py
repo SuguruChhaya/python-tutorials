@@ -2,6 +2,14 @@ from room import Room
 from item import Item
 from character import Enemy
 from character import Friend
+from rpginfo import RPGInfo
+
+#*Game name
+spooky_castle = RPGInfo("Spooky Castle")
+spooky_castle.welcome()
+RPGInfo.info()
+RPGInfo.author = "Suguru"
+RPGInfo.show_author()
 
 kitchen = Room("kitchen")
 kitchen.set_description("A place where you cook.")
@@ -20,14 +28,14 @@ ballroom.link_room(dining_hall, "east")
 
 dave = Enemy("Dave", "A dangerous zombie!")
 dave.set_conversation("Imma eat ur brain")
-dave.bribe("False")
+dave.set_bribe("False")
 dave.set_weakness("cheese")
 dining_hall.set_character(dave)
 dining_hall.get_character()
 
 akashi = Enemy("Akashi", "The monster")
 akashi.set_conversation("Yeet")
-akashi.bribe("True")
+akashi.set_bribe("True")
 akashi.set_weakness("Call mama")
 kitchen.set_character(akashi)
 
