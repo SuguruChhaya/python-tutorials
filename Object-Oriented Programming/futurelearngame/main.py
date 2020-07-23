@@ -12,14 +12,19 @@ RPGInfo.author = "Suguru"
 RPGInfo.show_author()
 
 kitchen = Room("kitchen")
-kitchen.set_description("A place where you cook.")
-
+#*Somehow the properties aren't working but I guess that is ok
+kitchen.description("A place where you cook.")
+#*Note that since the attributes are public, I can change them without using a method
+'''
+kitchen.description = "Changed"
+print(kitchen.description)
+'''
 
 ballroom = Room("ballroom")
-ballroom.set_description("A place where you dance.")
+ballroom.description("A place where you dance.")
 
 dining_hall = Room("dining hall")
-dining_hall.set_description("A place where you eat.")
+dining_hall.description("A place where you eat.")
 
 kitchen.link_room(dining_hall, "south")
 
@@ -46,6 +51,8 @@ ballroom.set_character(sunny)
 #*Start in the kitchen
 current_room = kitchen
 
+#*Store items in backpack
+backpack = []
 loop = True
 while loop:
     print("\n")

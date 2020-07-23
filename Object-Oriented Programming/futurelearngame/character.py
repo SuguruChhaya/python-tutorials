@@ -8,6 +8,7 @@ class Character():
         self.exist = True
 
 
+
     # Describe this character
     def describe(self):
         print( self.name + " is here!" )
