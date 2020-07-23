@@ -1,5 +1,6 @@
 class Character():
 
+
     # Create a character
     def __init__(self, char_name, char_description):
         self.name = char_name
@@ -39,17 +40,21 @@ class Friend(Character):
 
 
 class Enemy(Character):
+    #*Better to increate enemy count whenever an instance is created
+    enemy_count = 0
     def __init__(self, char_name, char_description):
         super().__init__(char_name, char_description)
         #*The super class is the same thing as Character since it is its parent class.
         #Character.__init__()
         self.weakness = None
         self.bribable = None
+        Enemy.enemy_count += 1
 
     def fight(self, combat_item):
         
         if combat_item == self.weakness:
             print(f"You fend {self.name} off with the {self.weakness}")
+            Enemy.enemy_count -= 1
             return True
         else:
             print(f"{self.name} crushes you. You die, LOL.")
