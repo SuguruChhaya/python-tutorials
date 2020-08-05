@@ -33,7 +33,8 @@ https://www.youtube.com/watch?v=5QOaCVpPOyk
 https://www.geeksforgeeks.org/color-game-python/
 8. To do list
 9. Quiz app, for admin too.
-10. 
+10. connect 4 game
+11. I want to make the finding the car game out of the three door. I also want to make a simulation at the end.
 
 Other datacamp courses I should take eventually:
 1. Data types for data science in python
