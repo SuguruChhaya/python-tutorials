@@ -4,8 +4,7 @@ In this version, I added a function which prints the total of everything that ha
 from tkinter import *
 from PIL import Image, ImageTk
 root = Tk()
-icon = ImageTk.PhotoImage(Image.open('TrollFace.png'))
-root.iconphoto(False, icon)
+
 
 current_topping = StringVar()
 #!Make sure to set value
