@@ -36,6 +36,9 @@ https://www.geeksforgeeks.org/color-game-python/
 10. connect 4 game
 11. I want to make the finding the car game out of the three door. I also want to make a simulation at the end.
 12. I want to connect to a population per second API, store previous data in a database, and show it on tkinter. (I don't want to use matplotlib because it is a lot of work for now.)
+13. I want to create a basic instagram clone on my computer. I can login, post images, text, follow people etc.
+14. #Games: hangman, snake game, moguratataki in pygame
+
 
 Other datacamp courses I should take eventually:
 1. Data types for data science in python
@@ -92,7 +95,6 @@ Interval recognizing software.
 
 #I should make a grapher, and gui's for my math questions.
 
-#Games: hangman, snake game, moguratataki
 
 Big project: lightbot solver (probably will take some time)
 
