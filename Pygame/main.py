@@ -56,16 +56,39 @@ class Ship():
     def draw(self, window):
         WIN.blit(self.ship_image, (self.x, self.y))
 
+    def get_width(self):
+        #*This returns the width of the ship
+        return self.ship_image.get_width()
+
+    def get_height(self):
+        return self.ship_image.get_height()
+
 class Player(Ship):
     def __init__(self, x, y, health=100):
-        super().__init__(x, y, health=health)
+        super().__init__(x, y, health=100)
         self.ship_image = YELLOW_SPACE_SHIP
         self.laser_img = YELLOW_LASER
         #*pygame masks allows you to identify pixel collisions and that stuff.
         self.mask = pygame.mask.from_surface(self.ship_image)
         #*I am creating self.max_health and self.health because self.max_health never changes but self.health will decrease
-        
         self.max_health = health
+
+class Enemy(Ship):
+    #*To map the colour with the corresponding space ship and laser colour
+    COLOR_MAP = {
+        'red': (RED_SPACE_SHIP, RED_LASER),
+        'green': (GREEN_SPACE_SHIP, GREEN_LASER),
+        'blue': (BLUE_SPACE_SHIP, BLUE_LASER)
+    }
+    def __init__(self, x, y, color, health=100):
+        super().__init__(x, y, health=100)
+        #*Enemy ship will have different colour
+        self.ship_image, self.laser_img = Enemy.COLOR_MAP[color][0], Enemy.COLOR_MAP[color][1]
+        self.mask = pygame.mask.from_surface(self.ship_image)
+
+    def move(self, vel):
+        self.y += vel
+
 
 #*In pygame, I have to create a mainloop like tkinter
 def main():
@@ -76,11 +99,20 @@ def main():
     #!I want to create text on the screen mentioning levels and lives. I need to create a font for that.
     #*player veolcity
     player_vel = 5
-    level = 1
+    level = 0
     lives = 5
+    lost = False
+    lost_counter = 0
     main_font = pygame.font.SysFont("comicsans", 50)
+    lost_font = pygame.font.SysFont("comicsans", 60, bold=False, italic=False)
     #!Clock is to refresh frames and all that.
-    ship = Ship(600, 300, )
+    player = Player(300, 650)
+
+    #*wavelength is the number of enemies in one level. Starts with 5. 
+    enemies = []
+    wave_length = 0
+    enemy_vel = 1
+
     clock = pygame.time.Clock()
 
     #*I can use the run variable and all that when I have function inside function
@@ -100,13 +132,46 @@ def main():
         WIN.blit(lives_label, (10, 10))
         WIN.blit(level_label, (WIDTH - level_label.get_width() - 10, 10))
 
+        #*Enemy is drawn first so that the player comes on top of the enemy
+        for enemy in enemies:
+            enemy.draw(WIN)
+            
+        player.draw(WIN)
 
-        ship.draw(WIN)
+        if lost:
+            lost_label = lost_font.render("You Lost!! ", 1, (255, 255, 255))
+            WIN.blit(lost_label, (int(WIDTH / 2 - lost_label.get_width() /2), 350))
+
         pygame.display.update()
 
     while run:
+
         clock.tick(FPS)
         redraw_window()
+
+        if lives <= 0 or player.health <= 0:
+            lost = True
+            lost_counter += 1
+
+            #*Lost message shows for 5 seconds
+            if lost_counter > FPS * 3:
+                run = False
+            
+            else:
+                #!continue means that all the stuff written after this else statement will not be executed. 
+                #*This means the player cannot move, the enemies cannot spawn or move etc
+                continue
+
+
+        #*Check if there are more enemies. If not, level up by 1
+        if len(enemies) == 0:
+            level += 1
+            wave_length += 5
+            #*Need to spawn them at same time but should look like they are comming down at different times. 
+            for i in range(wave_length):
+                enemy = Enemy(random.randrange(50, WIDTH - 100), random.randrange(-1500, -100), random.choice(['red', 'blue', 'green']))
+                enemies.append(enemy)
+                
         #*Check if user has quit the game or not. 
         for event in pygame.event.get():
             #print('for loop is ran')
@@ -130,15 +195,26 @@ def main():
         #*pygame.K_a return the index of the long tuple. The value is 0 when the item doesn't exist.
 
         #*To check whether the ship is out of the screen, I can add an 'and' statement
-        if keys[pygame.K_a] and ship.x - player_vel > 0: 
-            ship.x -= player_vel
+        if keys[pygame.K_a] and player.x - player_vel > 0: 
+            player.x -= player_vel
         #*I also have to cvonsider the width of the rectangle.
-        if keys[pygame.K_d] and ship.x + player_vel < WIDTH - 100:
-            ship.x += player_vel
-        if keys[pygame.K_w] and ship.y - player_vel > 0:
-            ship.y -= player_vel
-        if keys[pygame.K_s] and ship.y + player_vel < HEIGHT - 200:
-            ship.y += player_vel
+        if keys[pygame.K_d] and player.x + player_vel < WIDTH - player.get_width():
+            player.x += player_vel
+        if keys[pygame.K_w] and player.y - player_vel > 0:
+            player.y -= player_vel
+        if keys[pygame.K_s] and player.y + player_vel < HEIGHT - player.get_height():
+            player.y += player_vel
+
+        #*The [:] in the forloop is 
+        for enemy in enemies[:]:
+            enemy.move(enemy_vel)
+            #*If enemy moves out of the screen, we lose health. We then have to remove the enemies from the list. 
+            if enemy.y + enemy_vel > HEIGHT:
+                lives -= 1
+                enemies.remove(enemy)
+                player.health
+
+
 
                 
 
