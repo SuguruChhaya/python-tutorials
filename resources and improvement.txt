@@ -38,6 +38,7 @@ https://www.geeksforgeeks.org/color-game-python/
 12. I want to connect to a population per second API, store previous data in a database, and show it on tkinter. (I don't want to use matplotlib because it is a lot of work for now.)
 13. I want to create a basic instagram clone on my computer. I can login, post images, text, follow people etc.
 14. #Games: hangman, snake game, moguratataki in pygame
+15. Make a mope.io 1v1 game using two mice on one computer. Later, find a way to upload to internet so Akashi can play with me from a different computer.
 
 
 Other datacamp courses I should take eventually:
