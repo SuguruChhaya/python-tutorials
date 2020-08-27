@@ -39,7 +39,8 @@ https://www.geeksforgeeks.org/color-game-python/
 13. I want to create a basic instagram clone on my computer. I can login, post images, text, follow people etc.
 14. #Games: hangman, snake game, moguratataki in pygame
 15. Make a mope.io 1v1 game using two mice on one computer. Later, find a way to upload to internet so Akashi can play with me from a different computer.
-
+16. Socket programming, networking, clients etc.
+17. Learn django to make web apps.
 
 Other datacamp courses I should take eventually:
 1. Data types for data science in python

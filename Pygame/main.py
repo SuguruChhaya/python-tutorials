@@ -42,6 +42,8 @@ BG = pygame.transform.scale(pygame.image.load(os.path.join("assets", 'background
 
 #*Creating a Ship class to create player ships and enemy ship
 class Ship():
+    #*Cooldown time is half a second cuz 50 fps per second
+    COOLDOWN = 30
     def __init__(self, x, y, health=100):
         self.x = x
         self.y = y
@@ -54,7 +56,9 @@ class Ship():
     #*Second argument is the colour
     #*Third argument: 1st: top right x coord, 2nd: top right y coord, 3rd: yoko, 4th: tate
     def draw(self, window):
-        WIN.blit(self.ship_image, (self.x, self.y))
+        window.blit(self.ship_image, (self.x, self.y))
+        for laser in self.lasers:
+            laser.draw(window)
 
     def get_width(self):
         #*This returns the width of the ship
@@ -63,15 +67,56 @@ class Ship():
     def get_height(self):
         return self.ship_image.get_height()
 
+    def shoot(self):
+        if self.cool_down_counter == 0:
+            laser = Laser(self.x, self.y, self.laser_img)
+            self.lasers.append(laser)
+            #*Start cooldown counting 
+            self.cool_down_counter = 1
+        
+    def cooldown(self):
+        if self.cool_down_counter >= self.COOLDOWN:
+            self.cool_down_counter = 0
+        elif self.cool_down_counter > 0:
+            self.cool_down_counter += 1
+
+    def move_lasers(self, vel, obj):
+        #*Every time I move the laser, the cooldown method will be called
+        self.cooldown()
+        for laser in self.lasers:
+            laser.move(vel)
+            if laser.off_screen(HEIGHT):
+                self.lasers.remove(laser)
+            elif laser.collision(obj):
+                obj.health -= 10
+                self.lasers.remove(laser)
+
+
 class Player(Ship):
     def __init__(self, x, y, health=100):
         super().__init__(x, y, health=100)
         self.ship_image = YELLOW_SPACE_SHIP
         self.laser_img = YELLOW_LASER
         #*pygame masks allows you to identify pixel collisions and that stuff.
+        #!What is interesting is that pygame recognizes where the actual pixels are in the image.
+        #*This means it recognizes the actual image and the outside frame. 
         self.mask = pygame.mask.from_surface(self.ship_image)
         #*I am creating self.max_health and self.health because self.max_health never changes but self.health will decrease
         self.max_health = health
+
+    def move_lasers(self, vel, objs):
+        #*Every time I move the laser, the cooldown method will be called
+        #*objs will be a list of the enemy
+        self.cooldown()
+        for laser in self.lasers:
+            laser.move(vel)
+            if laser.off_screen(HEIGHT):
+                self.lasers.remove(laser)
+            else:
+                for obj in objs:
+                    if laser.collision(obj):
+                        objs.remove(obj)
+                        self.lasers.remove(laser)
 
 class Enemy(Ship):
     #*To map the colour with the corresponding space ship and laser colour
@@ -89,6 +134,31 @@ class Enemy(Ship):
     def move(self, vel):
         self.y += vel
 
+class Laser():
+    def __init__(self, x, y, img):
+        self.x = x
+        self.y = y
+        self.img = img
+        self.mask = pygame.mask.from_surface(self.img)
+
+    def draw(self, window):
+        window.blit(self.img, (self.x, self.y))
+    
+    def move(self, vel):
+        self.y += vel
+
+    def off_screen(self, height):
+        #!returns true if off screen and false when on screen
+        return not(self.y <= height and self.y >= 0)
+
+    def collision(self, obj):
+        return collide(self, obj)
+
+def collide(obj1, obj2):
+    #*To use the mask thingy, I need to use the distance between the top right corners of two objects.
+    offset_x = obj1.x - obj2.x
+    offset_y = obj1.y - obj2.y
+    return obj1.mask.overlap(obj2.mask, (offset_x, offset_y)) != None
 
 #*In pygame, I have to create a mainloop like tkinter
 def main():
@@ -107,6 +177,7 @@ def main():
     lost_font = pygame.font.SysFont("comicsans", 60, bold=False, italic=False)
     #!Clock is to refresh frames and all that.
     player = Player(300, 650)
+    laser_vel = 10
 
     #*wavelength is the number of enemies in one level. Starts with 5. 
     enemies = []
@@ -205,16 +276,21 @@ def main():
         if keys[pygame.K_s] and player.y + player_vel < HEIGHT - player.get_height():
             player.y += player_vel
 
+        #*Shooting
+        if keys[pygame.K_SPACE]:
+            player.shoot()
+
         #*The [:] in the forloop is 
         for enemy in enemies[:]:
             enemy.move(enemy_vel)
+            enemy.move_lasers(laser_vel, player)
             #*If enemy moves out of the screen, we lose health. We then have to remove the enemies from the list. 
             if enemy.y + enemy_vel > HEIGHT:
                 lives -= 1
                 enemies.remove(enemy)
                 player.health
 
-
+        player.move_lasers(-laser_vel, enemies)
 
                 
 
