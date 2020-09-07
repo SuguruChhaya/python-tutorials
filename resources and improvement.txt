@@ -40,7 +40,9 @@ https://www.geeksforgeeks.org/color-game-python/
 14. #Games: hangman, snake game, moguratataki in pygame
 15. Make a mope.io 1v1 game using two mice on one computer. Later, find a way to upload to internet so Akashi can play with me from a different computer.
 16. Socket programming, networking, clients etc.
-17. Learn django to make web apps.
+17. Make a software so that every time I visit a website that is blocked, I can add it to a text file so that I don't need to go to google docs and start writing again.
+When I have the chance to work on mama's account, I can just push my changes so I have one place to look at. 
+18. Learn django to make web apps.
 
 Other datacamp courses I should take eventually:
 1. Data types for data science in python
