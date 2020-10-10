@@ -43,6 +43,9 @@ https://www.geeksforgeeks.org/color-game-python/
 17. Make a software so that every time I visit a website that is blocked, I can add it to a text file so that I don't need to go to google docs and start writing again.
 When I have the chance to work on mama's account, I can just push my changes so I have one place to look at. 
 18. Learn django to make web apps.
+19. Django Instagram clone
+20. I want to create the color game but hosted online so everyone can play. Use django and heroku. 
+21. I want to make the GUI version for the color game using django.
 
 Other datacamp courses I should take eventually:
 1. Data types for data science in python

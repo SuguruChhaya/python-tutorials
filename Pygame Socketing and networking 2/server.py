@@ -1,6 +1,8 @@
 import socket
 import sys
 import threading
+from player import Player
+import pickle
 
 SERVER = socket.gethostbyname(socket.gethostname())
 PORT = 5555
@@ -19,63 +21,46 @@ except socket.error as e:
 server.listen(2)
 print("Waiting for connection, server started")
 
+players = [Player(0, 0, 50, 50, (255, 0, 0)), Player(100, 100, 50, 50, (0, 0, 255))]
 
-#!Convert string into tuple
-def read_pos(str):
-    '''
-    Input is something like '45, 67'
-    Return as tuple with integer
-    '''
-    str = str.split(',')
-    return int(str[0]), int(str[1])
-
-#!Convert tuple into string
-def make_pos(tup):
-    '''
-    Input: (45, 67)
-    Output: '45, 67'
-    '''
-    return str(tup[0]) + ',' + str(tup[1])
-
-#!Starting position of the 2 players
-pos = [(0, 0), (100, 100)]
 def threader_client(conn, player):
     connected = True
     #!Need to understand encoding format
     #*After first connection, loses connection when nothing else is going to be sent
-    conn.sendall(make_pos(pos[player]).encode(FORMAT))
+    conn.sendall(pickle.dumps(players[player]))
     while connected:
         
         try:
             #!The player position will be sent from client.py in "45, 67" form. 
             #*We have to turn that into a tuple
             #?Issue somewhere is code because except is reached
-            reply = read_pos(conn.recv(HEADER).decode(FORMAT))
+
+            #!data is going to be an objelayers
+            data = pickle.loads(conn.recv(HEADER))
             try:
                 #!Updating the tuple list so it contains current location
-                pos[player] = reply
+                players[player] = data
             except:
                 print('error 1')
 
             
-            if reply:
+            if data:
                 if player == 1:
                     try:
-                        sending = pos[0]
+                        sending = players[0]
                     except:
                         print('error 2')
                 else:
                     try:
-                        sending = pos[1]
+                        sending = players[1]
                     except:
                         print('error 3')
-                print("Recevied: ", reply)
+                print("Recevied: ", data)
                 print("Sending: ", sending)
 
-                #!Have to be careful about format or will go to except
-
+                #!Have to be careful about format or will go to eHEADER
                 #!Error right here
-                conn.sendall(make_pos(sending).encode(FORMAT))
+                conn.sendall(pickle.dumps(sending))
             else:
                 print("Disconnected")
                 break
