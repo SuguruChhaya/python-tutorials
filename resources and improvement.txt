@@ -128,3 +128,11 @@ Some websites I found:
 8. https://www.futurelearn.com/courses/physical-computing-raspberry-pi-python (Raspberry pi too)
 
 
+Random projects I wanna publish:
+App that randomly connect hospital patients with other patients.
+Include calling and texting functionalities along with motivational quotes patients can send to each other.
+
+I want to make a software that checks when a specific google doc got a change and notifies it to me. 
+Though there are websites that allow me to see changes on static websites, there aren't many that work for google docs.
+Reading this might help: https://developers.google.com/docs/api/concepts/structure?authuser=1
+
