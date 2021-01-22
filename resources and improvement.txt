@@ -136,3 +136,26 @@ I want to make a software that checks when a specific google doc got a change an
 Though there are websites that allow me to see changes on static websites, there aren't many that work for google docs.
 Reading this might help: https://developers.google.com/docs/api/concepts/structure?authuser=1
 
+I want to start learning data structures and algorithms. 
+https://www.youtube.com/watch?v=UNWSdgaPkwY
+https://www.youtube.com/watch?v=IIKTGg5AKkY
+https://www.quora.com/How-do-I-start-learning-or-strengthen-my-knowledge-of-data-structures-and-algorithms#:~:text=%20The%20learning%20phase%20is%20just%20starts%20from,them%2C%20and%20Repeat%20the%20step%20for...%20More%20
+https://practice.geeksforgeeks.org/courses/Workshop-DSA
+https://www.geeksforgeeks.org/data-structures-and-algorithms-online-courses-free-and-paid/
+
+mycodeschool
+MIT courseware
+Algorithms specialization on coursera
+Data structures and algorithms in python on udacity
+
+Try udacity and geeks for geeks
+
+Study data structures and algorithms
+
+1. Take a class (simple english, why is data structure optimized for, Big O analysis, code from scratch, picture)
+2. Flashcards of different algorithm
+3. Practice (cracking the coding interview)
+
+
+
+
