@@ -1,0 +1,24 @@
+Need to partition list into 3 parts: important
+
+In hoare, I think there are two pointers are the left and right side of the array. I will swap the smaller one into the left as I need. 
+https://www.youtube.com/watch?v=O5V5JTa3O20
+
+Example array of 5, 2, 7, 6, 1, 9, 4, 8
+ 
+Left poninter starts at '5' which is index 0. Left pointer moves from 5, 2, 7, 6, and 1 because they are all smaller than the right value
+which is 8. But since 9 is greater than 8, we will swap the 2 values. Instead of advancing the left pointer, we will advance
+from the right pointer and check 9 and 4. Since 4 is less than 8, we swap it. But then left pointer advances until the left and right pointer 
+match. Then that turn of partitioning is over and we divide the list, partition them again recurcively. 
+
+Every time we do a swap, the the advacing pointer swaps. No need to check the value that was already swapped. 
+
+The element the the two pointers point at when the sublist collides is the element that is in its correct place. 
+
+The right most value is actually the pivot. Even the pointer isn't explicitly mentioned, it is the right most value 
+that will end up in the correct spot. 
+
+Pseudocode
+
+For the screenshot I took, <> means !=. 
+Double while statements inside another while statement lol. 
+
