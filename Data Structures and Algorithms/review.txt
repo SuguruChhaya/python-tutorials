@@ -1,0 +1,12 @@
+1/29: https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=linked-lists
+
+1/31: Reversing a linked list iteratively
+1/31: Reversing a linked list recursively
+1/31: https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=linked-lists
+
+2/1: Reversing a linked list recursively
+2/1: Find merge point of linked list using while loop
+2/1: Find merge point of linked list using for loop
+2/1: Find merge point of linked list using set. 
+
+

@@ -156,6 +156,12 @@ Study data structures and algorithms
 2. Flashcards of different algorithm
 3. Practice (cracking the coding interview)
 
+My current goals:
+1. Complete all the interview prep kit of hackerrank and get a good basic understanding of DSA
+2. Obviously complete the Udacity course. 
+3. I am looking at the Problem solving badge but I don't know whether I am going to do it. 
+4. When I am bored with DSA, I can try the Python certification. 
+
 
 
 
