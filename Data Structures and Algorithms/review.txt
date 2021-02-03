@@ -9,4 +9,25 @@
 2/1: Find merge point of linked list using for loop
 2/1: Find merge point of linked list using set. 
 
+2/2: Find merge point of linked list in best method. 
+2/2: It has been a long time and I want to review quicksort lomuto
+2/2: And quicksort hoare. 
+2/2: And binary search
+
+2/3: Solve the specific case of the recursive staircase problem without using bottom up on https://www.hackerrank.com/challenges/ctci-recursive-staircase/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=recursion-backtracking
+2/3: Solve the specific case of the recursive staircase problem using bottom up on https://www.hackerrank.com/challenges/ctci-recursive-staircase/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=recursion-backtracking
+2/3: Solve a more general case of recursive staircase (can step any number of stairs in a certain set)
+2/3: Solving fibonacci using a bottom-up approach.  
+2/3: Quicksort lomuto (including duplicates). 
+2/3: Quicksort hoare (including duplicates). 
+2/3: Quicksort udacity
+2/3: Binary search iteratively. 
+2/3: Binary search recursively. 
+2/3: Merge sort. 
+
+2/4: Practice recursive staircase problem with memoization https://www.hackerrank.com/challenges/ctci-recursive-staircase/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=recursion-backtracking
+2/4: 
+
+
+
 
