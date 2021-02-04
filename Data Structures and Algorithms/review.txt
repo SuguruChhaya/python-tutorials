@@ -26,7 +26,11 @@
 2/3: Merge sort. 
 
 2/4: Practice recursive staircase problem with memoization https://www.hackerrank.com/challenges/ctci-recursive-staircase/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=recursion-backtracking
-2/4: 
+2/4: Quicksort udacity
+2/4: Solve the mergesort problem recursively: https://practice.geeksforgeeks.org/problems/merge-sort/1 
+2/4: Figure out how to solve merge sort iteratively. 
+
+
 
 
 
