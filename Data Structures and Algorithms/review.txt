@@ -30,6 +30,12 @@
 2/4: Solve the mergesort problem recursively: https://practice.geeksforgeeks.org/problems/merge-sort/1 
 2/4: Figure out how to solve merge sort iteratively. 
 
+2/5: Solve the mergesort problem recursively:https://practice.geeksforgeeks.org/problems/merge-sort/1 
+2/5: Solve the mergesort problem recursively with copying only the left side of the array and only using one big array and adding special condition. https://practice.geeksforgeeks.org/problems/merge-sort/1 
+
+https://dzone.com/articles/recursive-and-iterative-merge#:~:text=1%20Recursive%20Merge%20Sort%202%20Iterative%20Merge%20Sort,O%20%28n%29%20space%20to%20perform%20the%20merging%20step.
+
+
 
 
 
