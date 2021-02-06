@@ -36,7 +36,8 @@
 https://dzone.com/articles/recursive-and-iterative-merge#:~:text=1%20Recursive%20Merge%20Sort%202%20Iterative%20Merge%20Sort,O%20%28n%29%20space%20to%20perform%20the%20merging%20step.
 
 
-
+2/6: Work on optimizations for iterative merge sort. 
+2/6: Compare the solutions with what I copy pasted. 
 
 
 
