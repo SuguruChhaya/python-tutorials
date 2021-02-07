@@ -1,6 +1,6 @@
 #Actual iterative merge sort iterative code based on C++ code in Python 3. 
 #I got the basic version of this code from https://www.youtube.com/watch?v=Eid6JEHZ7nw. Code: 
-#I am following the optimization described at (Time) on (link). 
+#I am following the optimization described at 18:31 on https://www.youtube.com/watch?v=k3oezbZgfDs. 
 #I followed the optimization for iterative mergesort which is not to copy all elements into second array every time.
 #This reduces the number of copying (obviously). 
 #I tracked which array are we copying into using the "moveToEmpty" boolean. 
@@ -13,14 +13,6 @@ def merge(arr, arrEmpty, l, m, r):
     b = m + 1
     #Beginning of big array (very similar to previous method. )
     c = l
-    '''
-    if arrEmpty[m] <= arr[m+1]:
-        while a < m+1:
-            arr[c] = arrEmpty[a]
-            a+=1
-            b+=1
-            c+=1
-    '''
 
     while a < m+1 and b <r+1:
         if arr[a] <= arr[b]:
