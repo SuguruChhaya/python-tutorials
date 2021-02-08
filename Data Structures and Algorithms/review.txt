@@ -39,6 +39,17 @@ https://dzone.com/articles/recursive-and-iterative-merge#:~:text=1%20Recursive%2
 2/6: Work on optimizations for iterative merge sort. 
 2/6: Compare the solutions with what I copy pasted. 
 
+2/7: Code the mergesort program iteratively
+
+2/7: Work on a new recursion problem on hackerrank.
+
+
+Someday:
+Try to solve this https://www.hackerrank.com/challenges/crossword-puzzle/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=recursion-backtracking problem
+on hackerrank since it is a little too complicated for me to understand right now. 
+
+
+
 
 
 

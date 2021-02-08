@@ -66,3 +66,9 @@ def mergesort(arr):
 arr = [5, 2, 4, 1, 84, 2, 5, 2]
 mergesort(arr)
 print(arr)
+
+#Merge pass is a method which moves onto the method which actually merges the left array and the right aray. 
+#If the subarray is equal to or larger than the length of the array, there is only one subarray, the left one. 
+#There is no right subarray to merge to. 
+#If the arr passed has one element, subarraysize, which is 1, will be equal to lenArr, hence merge_pass won't be called. 
+#That's OK because there is no second subarray to merge. 
