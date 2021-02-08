@@ -43,10 +43,14 @@ https://dzone.com/articles/recursive-and-iterative-merge#:~:text=1%20Recursive%2
 
 2/7: Work on a new recursion problem on hackerrank.
 
+2/9: Review: https://www.hackerrank.com/challenges/candies/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dynamic-programming
+
+
 
 Someday:
 Try to solve this https://www.hackerrank.com/challenges/crossword-puzzle/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=recursion-backtracking problem
 on hackerrank since it is a little too complicated for me to understand right now. 
+
 
 
 

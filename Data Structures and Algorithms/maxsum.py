@@ -63,4 +63,6 @@ So basically,
 One similarity between this and the staircase problem
 1. Here, we are looking at sums. So we look at possibilities of sums until a certain index and choose maximum. 
 2. In the staircase problem, we are looking at ways to get somewhere. So we look at at possibilities of ways we can get to a certain index (though we don't choose max and all). 
+
+
 '''
