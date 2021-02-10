@@ -45,6 +45,8 @@ https://dzone.com/articles/recursive-and-iterative-merge#:~:text=1%20Recursive%2
 
 2/9: Review: https://www.hackerrank.com/challenges/candies/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dynamic-programming
 
+2/10: Solve https://www.hackerrank.com/challenges/30-linked-list-deletion/problem recursively and iteratively
+2/10: Solve https://www.hackerrank.com/challenges/two-strings/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps using sets.
 
 
 Someday:
