@@ -47,8 +47,13 @@ https://dzone.com/articles/recursive-and-iterative-merge#:~:text=1%20Recursive%2
 
 2/10: Solve https://www.hackerrank.com/challenges/30-linked-list-deletion/problem recursively and iteratively
 2/10: Solve https://www.hackerrank.com/challenges/two-strings/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps using sets.
+2/10: Review video for https://www.hackerrank.com/challenges/ctci-ransom-note/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps
+2/10: https://www.hackerrank.com/challenges/30-binary-search-trees/problem
+2/10: https://www.hackerrank.com/interview/interview-preparation-kit/trees/challenges
+2/10: https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=trees
 
-
+2/11: Solve https://www.hackerrank.com/challenges/30-binary-search-trees/problem
+2/11: Solve https://www.hackerrank.com/challenges/tree-huffman-decoding/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=trees in my own approach.
 Someday:
 Try to solve this https://www.hackerrank.com/challenges/crossword-puzzle/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=recursion-backtracking problem
 on hackerrank since it is a little too complicated for me to understand right now. 
