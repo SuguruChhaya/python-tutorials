@@ -54,6 +54,10 @@ https://dzone.com/articles/recursive-and-iterative-merge#:~:text=1%20Recursive%2
 
 2/11: Solve https://www.hackerrank.com/challenges/30-binary-search-trees/problem
 2/11: Solve https://www.hackerrank.com/challenges/tree-huffman-decoding/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=trees in my own approach.
+
+2/12: Solve https://www.hackerrank.com/challenges/tree-huffman-decoding/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=trees recusively and iteratively
+2/12: Complete https://classroom.udacity.com/courses/ud513/lessons/7122604912/concepts/79198839630923 since I had trouble with the inserting part. 
+
 Someday:
 Try to solve this https://www.hackerrank.com/challenges/crossword-puzzle/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=recursion-backtracking problem
 on hackerrank since it is a little too complicated for me to understand right now. 
