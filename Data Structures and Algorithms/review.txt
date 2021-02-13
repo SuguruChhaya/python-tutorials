@@ -58,10 +58,24 @@ https://dzone.com/articles/recursive-and-iterative-merge#:~:text=1%20Recursive%2
 2/12: Solve https://www.hackerrank.com/challenges/tree-huffman-decoding/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=trees recusively and iteratively
 2/12: Complete https://classroom.udacity.com/courses/ud513/lessons/7122604912/concepts/79198839630923 since I had trouble with the inserting part. 
 
+2/13: 2/12: Solve https://www.hackerrank.com/challenges/tree-huffman-decoding/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=trees recusively and iteratively
+
+
+
 Someday:
 Try to solve this https://www.hackerrank.com/challenges/crossword-puzzle/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=recursion-backtracking problem
 on hackerrank since it is a little too complicated for me to understand right now. 
 
+
+Since my current goal is to get the problem solving basic certification on hackerrank, I want to problems marked for that. 
+Dynamic programming:
+https://www.hackerrank.com/challenges/fibonacci-modified/problem
+https://www.hackerrank.com/domains/algorithms?filters%5Bskills%5D%5B%5D=Problem%20Solving%20%28Basic%29&filters%5Bsubdomains%5D%5B%5D=dynamic-programming&filters%5Bsubdomains%5D%5B%5D=greedy
+https://www.hackerrank.com/challenges/quicksort1/problem
+
+When looking through hackerrank questions offered, 
+1. Must set question level to problem solving basic
+2. Select all the categories individually so I can actually get through everything
 
 
 
