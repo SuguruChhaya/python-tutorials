@@ -59,8 +59,10 @@ https://dzone.com/articles/recursive-and-iterative-merge#:~:text=1%20Recursive%2
 2/12: Complete https://classroom.udacity.com/courses/ud513/lessons/7122604912/concepts/79198839630923 since I had trouble with the inserting part. 
 
 2/13: 2/12: Solve https://www.hackerrank.com/challenges/tree-huffman-decoding/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=trees recusively and iteratively
-
-
+2/13: I solved the hackerrank intermediate certification and obviously failed. Count the number of days for it to open back again. 
+2/13: I feel as if hackerrank doesn't have too many challenges specific to data structures that are taught systematically.
+Plus their solutions aren't really the best either. But the thing is that leetcode has premium subscription that prevents me from some content. 
+2/13: I guess I will try leetcode lessons for linked list. 
 
 Someday:
 Try to solve this https://www.hackerrank.com/challenges/crossword-puzzle/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=recursion-backtracking problem
