@@ -64,6 +64,18 @@ https://dzone.com/articles/recursive-and-iterative-merge#:~:text=1%20Recursive%2
 Plus their solutions aren't really the best either. But the thing is that leetcode has premium subscription that prevents me from some content. 
 2/13: I guess I will try leetcode lessons for linked list. 
 
+2/15: Fix the bug for https://leetcode.com/explore/learn/card/linked-list/214/two-pointer-technique/1215/ 
+
+2/16: Code the "sandwich solution" for the linked list at https://leetcode.com/explore/learn/card/linked-list/209/singly-linked-list/1290/ 
+Answer: https://leetcode.com/submissions/#/1 
+2/16: Simple solution to https://leetcode.com/explore/learn/card/linked-list/214/two-pointer-technique/1212/
+2/16: 2 dummy node solution for https://leetcode.com/problems/remove-nth-node-from-end-of-list/ 
+2/16: Recursive method to solve https://leetcode.com/problems/reverse-linked-list/solution/ 
+2/16: 2 different approaches other than using memory counter for https://leetcode.com/explore/learn/card/linked-list/219/classic-problems/1207/ 
+
+2/17: Solve: https://leetcode.com/explore/learn/card/linked-list/219/classic-problems/1208/
+2/17: Make the version for the value odd and even. 
+
 Someday:
 Try to solve this https://www.hackerrank.com/challenges/crossword-puzzle/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=recursion-backtracking problem
 on hackerrank since it is a little too complicated for me to understand right now. 
