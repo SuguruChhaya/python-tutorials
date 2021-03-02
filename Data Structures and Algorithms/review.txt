@@ -87,6 +87,36 @@ Answer: https://leetcode.com/submissions/#/1
 2/22: Another try for stack solution for https://leetcode.com/explore/learn/card/linked-list/213/conclusion/1225/
 2/22:Solve fast iterative solution and recursive for https://leetcode.com/explore/learn/card/recursion-i/251/scenario-i-recurrence-relation/3234/ 
 
+2/23: Review solution for https://leetcode.com/explore/learn/card/recursion-i/256/complexity-analysis/2380/
+2/23: For the question 'Unique Binary Search Trees 2', I should have first solved 1 and known the concept of catalan's number. 
+2/23: Tripped up because didn't have correct if elif structure.
+2/23: Though the squares of a sorted array question is easy, fun to think about all the different ways to accomplish it. 
+
+2/24: Review https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3238/ using the most intuitive method. I tend to overcomplicate the condition statement. 
+2/24: For the optimized squares solution, I forgot to use the loop variable. 
+
+2/26: Try 3 methods(.remove and shift, order doesn't matter) for https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3247/ 
+2/26: Found another way of removing duplicates for sorted array but my solution was clearer. 
+2/26: Do https://leetcode.com/explore/learn/card/fun-with-arrays/527/searching-for-items-in-an-array/3250/ using both the 0 efficient set method and exception dictionary lookup. 
+2/26: For the valid array mountain problem, there were just too many cases to think about. 
+2/26: Try the walking through solution for https://leetcode.com/problems/valid-mountain-array/submissions/
+
+2/27: Retry order doesn't matter solution for https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3575/. 
+I got correct intuition so don't worry.
+2/27: Retry 2 methods (messy and concise) for https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3259/
+2/27: Quicksort solution for https://leetcode.com/problems/sort-array-by-parity/
+2/27: Set solution for https://leetcode.com/explore/learn/card/fun-with-arrays/523/conclusion/3231/
+2/27: Give some thought to the pointer solutions https://leetcode.com/submissions/detail/461077962/?from=explore&item_id=3270 even though set is the fastest. 
+2/27: I didn't consider the possiblity of multiple pivots in https://leetcode.com/explore/learn/card/array-and-string/201/introduction-to-array/1144/
+
+2/28: O(1) space solution for https://leetcode.com/explore/learn/card/fun-with-arrays/523/conclusion/3270/
+2/28: two pointer faster technique for https://leetcode.com/explore/learn/card/fun-with-arrays/523/conclusion/3574/
+2/28: Code easier solution for https://leetcode.com/problems/find-pivot-index/
+2/28: Think about more efficient solution for https://leetcode.com/explore/learn/card/array-and-string/201/introduction-to-array/1147/
+
+3/26: 9pm-11pm: Google code jam qualification round. 
+3/27: 8am-3pm Google code jam qualification round. 
+
 Someday:
 Try to solve this https://www.hackerrank.com/challenges/crossword-puzzle/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=recursion-backtracking problem
 on hackerrank since it is a little too complicated for me to understand right now. 
@@ -97,6 +127,12 @@ Dynamic programming:
 https://www.hackerrank.com/challenges/fibonacci-modified/problem
 https://www.hackerrank.com/domains/algorithms?filters%5Bskills%5D%5B%5D=Problem%20Solving%20%28Basic%29&filters%5Bsubdomains%5D%5B%5D=dynamic-programming&filters%5Bsubdomains%5D%5B%5D=greedy
 https://www.hackerrank.com/challenges/quicksort1/problem
+Understand the solution but I won't be able to really code it. 
+https://leetcode.com/explore/learn/card/recursion-i/253/conclusion/2384/
+When I get better at algorithms, understand https://leetcode.com/problems/duplicate-zeros/solution/ 
+In addition with the previous problem, understand https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3253/ using 
+using https://www.youtube.com/watch?v=zp4huR7LN6M cuz I think they are similar. 
+
 
 
 
@@ -104,7 +140,22 @@ When looking through hackerrank questions offered,
 1. Must set question level to problem solving basic
 2. Select all the categories individually so I can actually get through everything
 
+Leetcode:
+Top 100 liked questions through the status page. 
+Work way up for data structures too. 
+When looking solutions, print solution and understand. 
 
+1. Find most relevant problems
+2. Thought process behind building the solution. 
+3. Start at easy problems. 
+4. Simulate your interview scenario. List out all mistakes and test cases I made mistakes on. Make a list of all past mistakes and look at them when solving problem.
+5. What is it that I was missing: didn't know initial technique or got stuck at middle? Allign thought process. 
+
+Mock interviews on leetcode seem kind of like hackerrank's certification. 
+
+The orders I will do leetcode problems in
+
+recursion1 -> linked list 
 
 
 
