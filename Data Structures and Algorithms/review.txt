@@ -136,10 +136,23 @@ Use 3 forloops.
 
 3/8: Continue working on https://leetcode.com/problems/rotate-array/solution/
 3/8: Two pointer technique and binary seach for https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1299/
+3/8: Wasted 40 minutes not knowing I reused a forloop counter -> probably should give more specific name. 
 
+3/9: Rotating array using reversal for https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays
+Use both .reverse() and manual reversal
+3/9: Sliding window technique is really difficult... Retry and try to understand intuition from https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1299/ 
+3/9: Contrinue thinking about how to get rid of empty space in https://leetcode.com/explore/learn/card/array-and-string/204/conclusion/1164/
 
+3/10: Solve a from forward solution for https://leetcode.com/explore/learn/card/array-and-string/204/conclusion/1164/
+Also use split() solution. 
+3/10: Further expand on https://leetcode.com/explore/learn/card/array-and-string/204/conclusion/1165/
+Think about how I can prevent for cases with extra heading, trailing,and in between spaces, based on the previous question. 
+3/10: Compile a list of questions about list and strings to do. 
 
-
+3/12: 3 solutions for https://leetcode.com/problems/sort-colors/submissions/. O(nlogn), O(2n) and O(n) solution. 
+3/12: O(n) space and O(1) space solution for https://practice.geeksforgeeks.org/problems/find-missing-and-repeating2512/1# 
+3/12: Practice shell sort here: https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1
+3/12: Understood the shell sort algorithm striver explained so I should try to understand the insertion sort one. 
 
 3/26: 9pm-11pm: Google code jam qualification round. 
 3/27: 8am-3pm Google code jam qualification round. 
@@ -158,7 +171,13 @@ using https://www.youtube.com/watch?v=zp4huR7LN6M cuz I think they are similar.
 Probably VERY IMPORTANT string algorithms: KMP search, Boyer-Moore, and Rabin-Karp. Try these algorithms for https://leetcode.com/explore/learn/card/array-and-string/203/introduction-to-string/1161/
 Though I misunderstood the substring problem, what is longest common "substring" is an array of strings?
 3/6: Use the 2 pointer technique for https://leetcode.com/problems/two-sum/: Requires a different approach so do later. 
+Understand cyclic replacements on https://leetcode.com/problems/rotate-array/solution/
+Learn the concept of XOR
+Learn the GAP method for shell sort. 
 
+String algo:
+https://leetcode.com/problems/reverse-string-ii/
+Tick mark represents that I have completed the exercise. 
 
 When looking through hackerrank questions offered, 
 1. Must set question level to problem solving basic
@@ -179,7 +198,16 @@ Mock interviews on leetcode seem kind of like hackerrank's certification.
 
 The orders I will do leetcode problems in
 
-recursion1 -> linked list 
+array101 -> array and string -> recursion1 -> linked list 
+
+Array and string questions to work on:
+https://leetcode.com/tag/array/
+https://leetcode.com/tag/string/
+
+I like following things so I will first follow 
+https://docs.google.com/document/d/1SM92efk8oDl8nyVw8NHPnbGexTS9W-1gmTEYfEurLWQ/edit
+Usually there is a leetcode problem link so follow that. 
+
 
 
 
