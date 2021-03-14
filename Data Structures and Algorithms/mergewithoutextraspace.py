@@ -141,3 +141,24 @@ Striver's approach
 Iterate from front (doesn't really matter which way you iterate from)
 1. Swap arr1[i] and arr2[0] is arr2[i] < 
 '''
+
+def merge(arr1, arr2, m, n):
+    for i in range(n-1, -1, -1):
+        last = arr1[-1]
+        j = m-2
+        while j >= 0 and arr1[j] > arr2[i]:
+            arr1[j+1] = arr1[j]
+            j-=1
+            
+        #!I think I mentioned this somewhere but the reason I add last > arr2[i] is for when arr1[m-2] < arr2[i] < arr1[m], meaning it in between. If it doesn't come between, no point to even insert. 
+        #!All trying to make sure is to swap correctly. e.g. [1, 3, 5, 7] and [0, 2, 6, 8, 9]. Will only 1st condition, 
+        #!2 conditions end up overlapping. 
+        if j != m-2:# or last > arr2[i]:
+            arr1[j+1] = arr2[i]
+            arr2[i] = last
+arr1 = [1, 3, 5, 7]
+arr2 = [0, 2, 6, 8, 9]
+merge(arr1,arr2 , 4, 5)
+
+print(arr1)
+print(arr2)

@@ -154,6 +154,10 @@ Think about how I can prevent for cases with extra heading, trailing,and in betw
 3/12: Practice shell sort here: https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1
 3/12: Understood the shell sort algorithm striver explained so I should try to understand the insertion sort one. 
 
+3/14: Understand kadane's algo better. 
+3/14: Use kandane's algo to solve https://leetcode.com/problems/maximum-subarray/submissions/
+
+3/15: Practice Kadane's algo: https://leetcode.com/problems/maximum-subarray/submissions/
 3/26: 9pm-11pm: Google code jam qualification round. 
 3/27: 8am-3pm Google code jam qualification round. 
 

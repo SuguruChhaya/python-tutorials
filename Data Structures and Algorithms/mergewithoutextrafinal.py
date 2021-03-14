@@ -23,11 +23,13 @@ class Solution:
     def s2(self, arr1, arr2, m, n):
         for i in range(m):
             last = arr2[0]
+            #?Why can't we start at a 0? Because we are shifting everything to the left (we won't get index error for index -1 but we will get something different)
             j = 1
             while j<n and arr2[j] < arr1[i]:
                 arr2[j-1] = arr2[j]
                 j+=1
             
+            #For the case of j!=1, arr2[j] and arr2[j-1] will be duplicates. 
             if (j != 1 or last < arr1[i]):
                 arr2[j-1] = arr1[i]
                 arr1[i] = last
@@ -59,11 +61,11 @@ class Solution:
                 arr2[i] = last
         
 
-arr1 = [1, 3, 5, 7]
+arr1 = [0, 1, 5, 7]
 arr2 = [0, 2, 6, 8, 9]
 
 test = Solution()
-test.s4(arr1, arr2, len(arr1), len(arr2))
+test.s1(arr1, arr2, len(arr1), len(arr2))
 
 print(f"arr1: {arr1}")
 print(f"arr2: {arr2}")
