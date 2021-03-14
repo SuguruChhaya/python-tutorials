@@ -14,7 +14,8 @@ class Solution:
                 upperbound = intervals[i][1]
                 for a in range(i, len(intervals)):
                     #*Correct way to check overlap
-                    if lowerbound <= intervals[a][0] <= upperbound or lowerbound <= intervals[a][1] <=upperbound:
+                    #The commented portion never really happens because already sorted. 
+                    if lowerbound <= intervals[a][0] <= upperbound:# or lowerbound <= intervals[a][1] <=upperbound:
                         lowerbound = min(lowerbound, intervals[a][0])
                         upperbound = max(upperbound, intervals[a][1])
 

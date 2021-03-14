@@ -72,3 +72,8 @@ Brute force -> sort all intervals.
 '''
 
 https://leetcode.com/submissions/detail/467855759/
+https://github.com/SuguruChhaya/python-tutorials/blob/master/Data%20Structures%20and%20Algorithms/mergeintervalfinal.py
+
+'''
+So far, striver's better approach is to place one value to hold a temporary array that can be expanded. When merging 
+'''
