@@ -158,6 +158,8 @@ Think about how I can prevent for cases with extra heading, trailing,and in betw
 3/14: Use kandane's algo to solve https://leetcode.com/problems/maximum-subarray/submissions/
 
 3/15: Practice Kadane's algo: https://leetcode.com/problems/maximum-subarray/submissions/
+3/15: Review the optimal solution of https://leetcode.com/problems/merge-intervals/
+
 3/26: 9pm-11pm: Google code jam qualification round. 
 3/27: 8am-3pm Google code jam qualification round. 
 

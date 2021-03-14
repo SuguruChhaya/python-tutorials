@@ -75,5 +75,6 @@ https://leetcode.com/submissions/detail/467855759/
 https://github.com/SuguruChhaya/python-tutorials/blob/master/Data%20Structures%20and%20Algorithms/mergeintervalfinal.py
 
 '''
-So far, striver's better approach is to place one value to hold a temporary array that can be expanded. When merging 
+So far, striver's better approach is to place one value to hold a temporary array that can be expanded. When merging, only change the last value. When no change needs to be made, add to final array. 
+This prevents checking all the time but do I really have to check everything. 
 '''
