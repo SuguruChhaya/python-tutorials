@@ -76,5 +76,23 @@ https://github.com/SuguruChhaya/python-tutorials/blob/master/Data%20Structures%2
 
 '''
 So far, striver's better approach is to place one value to hold a temporary array that can be expanded. When merging, only change the last value. When no change needs to be made, add to final array. 
-This prevents checking all the time but do I really have to check everything. 
+This prevents checking all the time but do I really have to check everything. -> No. In previous I had to do so. 
 '''
+
+
+def merge(self, intervals):
+	result = []
+	curr = intervals[0]
+	l = len(intervals)
+	for i in range(1, l):
+		if intervals[i][0] <= curr[1]:
+			curr[1] = max(intervals[i][1], curr[1])
+
+		else:
+			result.append(curr)
+			curr = intervals[i]
+	return result
+
+
+Since sorting, overlapping intervals must be consecutive. 
+		

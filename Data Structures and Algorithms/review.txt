@@ -160,8 +160,17 @@ Think about how I can prevent for cases with extra heading, trailing,and in betw
 3/15: Practice Kadane's algo: https://leetcode.com/problems/maximum-subarray/submissions/
 3/15: Review the optimal solution of https://leetcode.com/problems/merge-intervals/
 
+3/16: O(nlogn + n) solution for https://leetcode.com/problems/merge-intervals/solution/
+
+3/17: Review the idea of cyclic replacements here: https://leetcode.com/problems/find-the-duplicate-number/submissions/
+3/17: Finish watching striver's video on setting matrix https://leetcode.com/problems/set-matrix-zeroes/submissions/
+
+4/13: Retry hackerrank intermediate certification. 
+
 3/26: 9pm-11pm: Google code jam qualification round. 
 3/27: 8am-3pm Google code jam qualification round. 
+
+
 
 Someday:
 Since my current goal is to get the problem solving basic certification on hackerrank, I want to problems marked for that. 
