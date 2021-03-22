@@ -1,1 +1,30 @@
 C:\Users\sugur\AppData\Local\Programs\Microsoft VS Code
+
+Trying to build a project related to CP and see how I am going to interact with projects from now on. 
+
+Heuristic: find shortest path. 
+
+Maybe consider something like this project: https://github.com/YahyaAlaaMassoud/Sliding-Puzzle-A-Star-Solver/blob/master/sliding_puzzle.py
+
+Using manhattan distance. 
+H(n) -> gives estimate distance. 
+G(n) -> shortest path from start to this current node. 
+F(n) -> sum of both. (use for ultimate consideration)
+Last: updates and tells where we came from. 
+
+Tables are used for the F, G, and H scores. 
+
+Look at the neighbours of the specific node. 
+
+Use a queue to consider all neighbours correctly (breadth first/not depth first)?
+
+The moment we take end node out of algo: finish. 
+
+After finish, backtrack. (First try is all random but then find best). 
+
+Whenever something has a smaller F, G, or H value in the table, we should add it in the queue so it gets attention. 
+If there are several ways to reach a specific node, and we already reached it previously in smaller distance, we don't 
+add in queue because we don't have to look at it. I think this also prevents going back. Without this mechanism, I guess 
+we might ending up going back and forth forever. YEP. Tim explains this. In a bigger scale, this probably prevents a lot of wasted checks. 
+
+

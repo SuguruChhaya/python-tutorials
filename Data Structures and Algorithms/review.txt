@@ -165,10 +165,20 @@ Think about how I can prevent for cases with extra heading, trailing,and in betw
 3/17: Review the idea of cyclic replacements here: https://leetcode.com/problems/find-the-duplicate-number/submissions/
 3/17: Finish watching striver's video on setting matrix https://leetcode.com/problems/set-matrix-zeroes/submissions/
 
-4/13: Retry hackerrank intermediate certification. 
+3/18: Code the 2 different variations of the pascal's triangle problem. Both with O(n) space. Do factorial without using recursion. 
+3/18: Code a linear solution for https://leetcode.com/problems/next-permutation/
+
+3/19: Review the one pass solution for https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+Also revise the Kadane's algorithm (max subarray sum) and try to find the relationship. 
+
+3/20:
 
 3/26: 9pm-11pm: Google code jam qualification round. 
 3/27: 8am-3pm Google code jam qualification round. 
+
+4/13: Retry hackerrank intermediate certification. 
+
+
 
 
 
@@ -189,6 +199,8 @@ Though I misunderstood the substring problem, what is longest common "substring"
 Understand cyclic replacements on https://leetcode.com/problems/rotate-array/solution/
 Learn the concept of XOR
 Learn the GAP method for shell sort. 
+Understand cyclic replacements. Kind of hard concept to grasp. 
+All permutations of a string? Probably good to know. 
 
 String algo:
 https://leetcode.com/problems/reverse-string-ii/
