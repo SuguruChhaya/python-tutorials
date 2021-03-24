@@ -34,7 +34,11 @@ def main(num):
     return int("".join(arr))
 '''
 
-def main(arr):
+def main(s):
+    arr = []
+    for i in s:
+        arr.append(i)
+    
     turned9 = False
     for i in range(len(arr)):
         if turned9:
@@ -45,7 +49,14 @@ def main(arr):
             arr[i+1] = "9"
             turned9 = True
     
-    print(arr)
+    #*2 pass. Can traverse from the beginning and then from the end or after breakpoint just traverse back. 
+    for j in range(len(arr)-1, 0, -1):
+        if arr[j] < arr[j-1]:
+            #*Change to 9 and subtract from previous. 
+            arr[j] = "9"
+            arr[j-1] = str(int(arr[j-1])-1)
+
+    return int("".join(arr))
 
 
 numTests = int(input())

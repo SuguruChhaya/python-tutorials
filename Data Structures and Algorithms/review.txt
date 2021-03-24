@@ -201,6 +201,8 @@ Learn the concept of XOR
 Learn the GAP method for shell sort. 
 Understand cyclic replacements. Kind of hard concept to grasp. 
 All permutations of a string? Probably good to know. 
+Understand pretty hard google codejam problem: https://codingcompetitions.withgoogle.com/codejam/round/0000000000433515/0000000000433827
+
 
 String algo:
 https://leetcode.com/problems/reverse-string-ii/

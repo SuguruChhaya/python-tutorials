@@ -1,6 +1,7 @@
 C:\Users\sugur\AppData\Local\Programs\Microsoft VS Code
 
 Trying to build a project related to CP and see how I am going to interact with projects from now on. 
+I think A* is essentially a better brute force which does stuff that has more chances. 
 
 Heuristic: find shortest path. 
 

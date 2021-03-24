@@ -1,0 +1,3 @@
+3/24: Review algorithm for trouble sort 
+3/24: Review thought for countsheep
+3/24: Try to find the correct solution for https://codingcompetitions.withgoogle.com/codejam/round/0000000000432add/00000000004331a3#problem
